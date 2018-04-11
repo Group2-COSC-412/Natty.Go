@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natty Go", "Natty Go.csproj", "{B8F8CF41-1EC8-A69B-AE68-79885AAE5473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natty Go.Plugins", "Natty Go.Plugins.csproj", "{A92EE491-CB6E-8C22-0767-2B50C985527E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natty Go.Editor.Plugins", "Natty Go.Editor.Plugins.csproj", "{066B73DB-469F-64B7-A1E0-E2716CFEB268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8F8CF41-1EC8-A69B-AE68-79885AAE5473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F8CF41-1EC8-A69B-AE68-79885AAE5473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F8CF41-1EC8-A69B-AE68-79885AAE5473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F8CF41-1EC8-A69B-AE68-79885AAE5473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92EE491-CB6E-8C22-0767-2B50C985527E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92EE491-CB6E-8C22-0767-2B50C985527E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92EE491-CB6E-8C22-0767-2B50C985527E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92EE491-CB6E-8C22-0767-2B50C985527E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066B73DB-469F-64B7-A1E0-E2716CFEB268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066B73DB-469F-64B7-A1E0-E2716CFEB268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066B73DB-469F-64B7-A1E0-E2716CFEB268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066B73DB-469F-64B7-A1E0-E2716CFEB268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
