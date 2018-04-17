@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 m_EditorVersion: 2017.3.0f3
+=======
+m_EditorVersion: 2017.4.0f1
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare

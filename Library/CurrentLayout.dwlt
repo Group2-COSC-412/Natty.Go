@@ -14,6 +14,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 52
     width: 1920
     height: 980
@@ -21,6 +22,15 @@ MonoBehaviour:
   m_Title: 
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 300}
+=======
+    y: 43
+    width: 1280
+    height: 637
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 950, y: 321}
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -38,10 +48,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 302
     height: 930
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 202
+    height: 587
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -61,10 +78,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1474
     y: 0
     width: 446
     height: 930
+=======
+    x: 983
+    y: 0
+    width: 297
+    height: 587
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 10}
@@ -92,12 +116,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 930
   m_MinSize: {x: 638, y: 271}
   m_MaxSize: {x: 18008, y: 10021}
   vertical: 0
   controlID: 97
+=======
+    width: 1280
+    height: 587
+  m_MinSize: {x: 636, y: 271}
+  m_MaxSize: {x: 18006, y: 10021}
+  vertical: 0
+  controlID: 10
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -112,10 +145,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 302
     y: 0
     width: 1172
     height: 930
+=======
+    x: 202
+    y: 0
+    width: 781
+    height: 587
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 13}
@@ -144,9 +184,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
     height: 980
   m_MinSize: {x: 950, y: 300}
+=======
+    width: 1280
+    height: 637
+  m_MinSize: {x: 950, y: 321}
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -164,7 +210,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
+=======
+    width: 1280
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -184,8 +234,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 960
     width: 1920
+=======
+    y: 617
+    width: 1280
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -238,10 +293,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1476
     y: 101
     width: 444
     height: 909
+=======
+    x: 985
+    y: 92
+    width: 295
+    height: 566
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -255,6 +317,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Horse
   m_ViewMode: 1
   m_StartGridSize: 58
@@ -268,6 +331,22 @@ MonoBehaviour:
     m_SelectedIDs: 6a3c0000
     m_LastClickedID: 15466
     m_ExpandedIDs: 00000000a0280000c42a00003a2b0000662b00008c2c0000322d0000402d0000ae2d0000b22d0000dc2d000000ca9a3bffffff7f
+=======
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator
+  m_ViewMode: 1
+  m_StartGridSize: 58
+  m_LastFolders:
+  - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator
+  m_LastFoldersGridSize: 58
+  m_LastProjectPath: C:\Users\David\Documents\Current Courses\COSC 412\Project\GitHubGo\NationalParksGo\Natty
+    Go
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 202d0000
+    m_LastClickedID: 11552
+    m_ExpandedIDs: 00000000e0280000d62a0000482b0000722b0000762c00001a2d0000282d0000962d00009a2d0000c42d000000ca9a3bffffff7f
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -295,7 +374,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a0280000c42a00003a2b0000662b00008c2c0000322d0000402d0000ae2d0000b22d0000dc2d000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 00000000e0280000be290000482b0000722b0000762c00001a2d0000282d0000962d0000c42d0000102e0000
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,6 +490,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 101
     width: 300
     height: 909
@@ -420,16 +504,38 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
+=======
+    y: 92
+    width: 200
+    height: 566
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1c2f0000
+    m_LastClickedID: 12060
+    m_ExpandedIDs: 4601ffff9efbffff00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: humpback_whale_model23
+      m_OriginalName: humpback_whale_model23
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
+=======
+      m_UserData: -32812
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -460,10 +566,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 304
     y: 101
     width: 1168
     height: 909
+=======
+    x: 204
+    y: 92
+    width: 777
+    height: 566
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 1171.6465647565467
@@ -471,9 +584,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 1445.4639, y: 146.07083, z: 1207.6893}
     speed: 2
     m_Value: {x: 1445.4639, y: 146.07083, z: 1207.6893}
+=======
+    m_Target: {x: 1449.5183, y: 141.36081, z: 1218.9873}
+    speed: 2
+    m_Value: {x: 1449.5183, y: 141.36081, z: 1218.9873}
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -489,6 +608,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
+<<<<<<< HEAD
       m_Target: 1
       speed: 2
       m_Value: 1
@@ -508,6 +628,27 @@ MonoBehaviour:
     m_Target: 0
     speed: 2
     m_Value: 0
+=======
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 1, z: 0, w: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0.99999994, z: 0, w: 0}
+  m_Size:
+    m_Target: 17.642841
+    speed: 2
+    m_Value: 17.642841
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
   m_LastSceneViewOrtho: 0
@@ -592,6 +733,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
+<<<<<<< HEAD
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1184,3 +1326,5 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
+=======
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare

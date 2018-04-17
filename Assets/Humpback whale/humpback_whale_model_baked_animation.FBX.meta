@@ -4,6 +4,7 @@ timeCreated: 18446744011573954816
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
+<<<<<<< HEAD
     100000: Bone001
     100002: Bone002
     100004: Bone003
@@ -70,6 +71,10 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: 02 - Default
     second: {fileID: 2100000, guid: da7272eb982174944905bc546feabe8c, type: 2}
+=======
+    4300000: humpback_whale_exp1_0
+  externalObjects: {}
+>>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   materials:
     importMaterials: 1
     materialName: 0
