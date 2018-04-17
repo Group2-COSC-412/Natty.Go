@@ -4,7 +4,54 @@ timeCreated: 1522799612
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: geo_frames
+    100004: geo_head
+    100006: geo_l_eye
+    100008: geo_l_eye1
+    100010: geo_l_eye2
+    100012: geo_lens
+    100014: group
+    100016: grp_model
+    100018: grp_shades
+    100020: pasted__pSphere1
+    100022: pCube1
+    100024: pCube2
+    100026: transform1
+    100028: transform2
+    400000: //RootNode
+    400002: geo_frames
+    400004: geo_head
+    400006: geo_l_eye
+    400008: geo_l_eye1
+    400010: geo_l_eye2
+    400012: geo_lens
+    400014: group
+    400016: grp_model
+    400018: grp_shades
+    400020: pasted__pSphere1
+    400022: pCube1
+    400024: pCube2
+    400026: transform1
+    400028: transform2
+    2100000: lambert3
+    2100002: lambert1
+    2100004: phong1
+    2300000: geo_frames
+    2300002: geo_lens
+    2300004: pasted__pSphere1
+    2300006: pCube2
+    3300000: geo_frames
+    3300002: geo_lens
+    3300004: pasted__pSphere1
+    3300006: pCube2
+    4300000: pCube2
+    4300002: pasted__pSphere1
+    4300004: geo_lens
+    4300006: geo_frames
+    7400000: Default Take
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
