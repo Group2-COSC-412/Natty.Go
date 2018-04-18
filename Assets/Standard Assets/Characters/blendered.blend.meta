@@ -1,10 +1,7 @@
 fileFormatVersion: 2
 guid: af059d58379a745468e90b4f0b367511
-timeCreated: 1522799612
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
-<<<<<<< HEAD
   fileIDToRecycleName:
     100000: //RootNode
     100002: geo_frames
@@ -53,9 +50,6 @@ ModelImporter:
     4300006: geo_frames
     7400000: Default Take
     9500000: //RootNode
-=======
-  fileIDToRecycleName: {}
->>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   externalObjects: {}
   materials:
     importMaterials: 1

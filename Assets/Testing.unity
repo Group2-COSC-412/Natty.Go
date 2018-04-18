@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44080758, g: 0.4894969, b: 0.5696085, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -582,13 +582,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1335194550}
-  m_LocalRotation: {x: 0.1092391, y: 1.1587403e-10, z: 9.796598e-10, w: 0.9940155}
-  m_LocalPosition: {x: 0.05, y: 1.95, z: -2.06}
+  m_LocalRotation: {x: 0.24007422, y: 2.4474714e-10, z: 9.556459e-10, w: 0.97075456}
+  m_LocalPosition: {x: 0.049987793, y: 2.0200005, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1684600357}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 12.543, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 27.782001, y: 0, z: 0}
 --- !u!1 &1684600351 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 149790, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
@@ -603,13 +603,41 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1684600351}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cca5d3b6b85ad649a4b5c69ee460edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ethan: {fileID: 1684600357}
-  SmoothFactor: 0.47
+  SmoothFactor: 0.205
+--- !u!114 &1684600359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684600351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c934da1c5c1fc44afd1568f119450c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSettings: {fileID: 0}
+  MOVEMENT_SPEED: 2
+  MOVEMENT_FRICTION: 3
+  MAX_SPEED: 1
+  PLAYER_RADIUS: 5
+  PLAYER_WIND_RADIUS: 2
+  PLAYER_PARTICLE_RADIUS: 3
+  PLAYER_PARTICLE_WIND_RADIUS: 1.5
+  PLAYER_EMIT_WIND: 50
+  PLAYER_EMIT: 1000
+  playerNumber: 0
+  thisMovement: 
+  xVel: 0
+  yVel: 0
+  zVel: 0
+  myPowerUp: 0
+  timer: 0
 --- !u!1001 &1721148543
 Prefab:
   m_ObjectHideFlags: 0
@@ -697,6 +725,22 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f62b52b2d4b721742a0bc5c6b4db468d, type: 2}
+    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
+      propertyPath: m_MovingTurnSpeed
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
+      propertyPath: m_StationaryTurnSpeed
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444856, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
   m_IsPrefabParent: 0
