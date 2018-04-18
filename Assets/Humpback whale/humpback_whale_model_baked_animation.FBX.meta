@@ -1,10 +1,8 @@
 fileFormatVersion: 2
 guid: 035a8130f4329504aaa80f75dc72628d
-timeCreated: 18446744011573954816
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-<<<<<<< HEAD
     100000: Bone001
     100002: Bone002
     100004: Bone003
@@ -57,29 +55,21 @@ ModelImporter:
     400046: Bone024
     400048: humpback_whale_exp1_0
     400050: //RootNode
+    2100000: 02 - Default
     4300000: humpback_whale_exp1_0
     7400000: swim
     7400002: fastswim
     7400004: death
     7400006: fastswim2
     7400008: dive
-    11100000: //RootNode
+    9500000: //RootNode
     13700000: humpback_whale_exp1_0
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 02 - Default
-    second: {fileID: 2100000, guid: da7272eb982174944905bc546feabe8c, type: 2}
-=======
-    4300000: humpback_whale_exp1_0
   externalObjects: {}
->>>>>>> parent of 7d77266... Merge pull request #1 from Group2-COSC-412/dguare
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -244,13 +234,13 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -258,17 +248,17 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -288,7 +278,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
