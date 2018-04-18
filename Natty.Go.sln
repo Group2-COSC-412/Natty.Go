@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natty.Go", "Natty.Go.csproj", "{4BFAF0E4-3D80-EA67-99CA-648067D363E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natty.Go.Plugins", "Natty.Go.Plugins.csproj", "{9CB917D0-9CC6-3ED0-F642-B61344747860}"
