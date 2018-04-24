@@ -593,7 +593,11 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 149790, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
   m_PrefabInternal: {fileID: 1721148543}
---- !u!114 &1684600352
+--- !u!4 &1684600357 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
+  m_PrefabInternal: {fileID: 1721148543}
+--- !u!114 &1684600358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -605,7 +609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ethan: {fileID: 1684600357}
-<<<<<<< HEAD
   SmoothFactor: 0.205
 --- !u!114 &1684600359
 MonoBehaviour:
@@ -635,13 +638,6 @@ MonoBehaviour:
   zVel: 0
   myPowerUp: 0
   timer: 0
-=======
-  SmoothFactor: 0.5
---- !u!4 &1684600357 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-  m_PrefabInternal: {fileID: 1721148543}
->>>>>>> ca965199667e9eb61a008350eec497e060357961
 --- !u!1001 &1721148543
 Prefab:
   m_ObjectHideFlags: 0
@@ -757,7 +753,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 570.1
+      value: 987
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -789,7 +785,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 328.4839
+      value: 745.4273
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
       propertyPath: m_LocalScale.z
