@@ -135,7 +135,7 @@ public class PlayerMovement : MonoBehaviour
         {
             horizontalMovement = (int) (touch.deltaPosition.x);
             //verticalMovement = (int)(touch.deltaPosition.y );
-            zMovement = (int) (touch.deltaPosition.z);
+            zMovement = (int) (touch.deltaPosition.y);
         }
 #endif
         xVel += horizontalMovement * tempSpeed * Time.deltaTime;
