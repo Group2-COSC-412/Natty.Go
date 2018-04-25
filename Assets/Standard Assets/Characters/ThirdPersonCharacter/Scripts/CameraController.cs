@@ -17,6 +17,14 @@ public class CameraController : MonoBehaviour {
 	void LateUpdate () {
         Vector3 newPos = ethan.position + offset;
 
-        transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
+        //transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
+        if (Input.GetButtonDown("A"))
+        {
+            transform.Rotate(Vector3.Slerp(Vector3.left, newPos, SmoothFactor));
+        }
+        if (Input.GetButtonDown("D"))
+        {
+            transform.Rotate(Vector3.Slerp(Vector3.right, newPos, SmoothFactor));
+        }
 	}
 }
