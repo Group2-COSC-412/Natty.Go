@@ -241,6 +241,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1386527b8bdbd4043982c01734b4da5a, type: 2}
+    - target: {fileID: 100050, guid: 087a2ac1c75bbc34aa1d66d7766c1d5b, type: 3}
+      propertyPath: m_TagString
+      value: Animals
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 087a2ac1c75bbc34aa1d66d7766c1d5b, type: 3}
   m_IsPrefabParent: 0
@@ -303,6 +307,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 76d1131c0e70bc24c9ff4a0771f12858, type: 2}
+    - target: {fileID: 100000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
+      propertyPath: m_TagString
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
   m_IsPrefabParent: 0
@@ -319,7 +331,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4851383758946644, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 145.25
+      value: 147.32
       objectReference: {fileID: 0}
     - target: {fileID: 4851383758946644, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
       propertyPath: m_LocalPosition.z
@@ -344,6 +356,36 @@ Prefab:
     - target: {fileID: 4851383758946644, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426950224202130, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
+      propertyPath: m_TagString
+      value: Bait
+      objectReference: {fileID: 0}
+    - target: {fileID: 54853491153256782, guid: 827aadbb2d6908a41a1771e8cf9e6418,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036189564778250, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669007189650434, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781119133445178, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036189564778250, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 54853491153256782, guid: 827aadbb2d6908a41a1771e8cf9e6418,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 827aadbb2d6908a41a1771e8cf9e6418, type: 2}
@@ -410,6 +452,10 @@ Prefab:
     - target: {fileID: 11100000, guid: 681e41ee1260343b395ca58745c94870, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 681e41ee1260343b395ca58745c94870, type: 3}
+      propertyPath: m_TagString
+      value: Water
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 681e41ee1260343b395ca58745c94870, type: 3}
@@ -485,6 +531,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162946806 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1426950224202130, guid: 827aadbb2d6908a41a1771e8cf9e6418,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056466029}
+--- !u!114 &1162946807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162946806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8b9bd855af1d540bf0f218346cada3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bait: 0
+--- !u!65 &1162946810
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162946806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1278102714
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,6 +916,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aef17685154b135459a0a8f2b76e3b6b, type: 2}
+    - target: {fileID: 100000, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
+      propertyPath: m_TagString
+      value: Water
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
   m_IsPrefabParent: 0

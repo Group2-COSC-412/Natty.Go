@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimalSpawner : MonoBehaviour {
 
-    enum BaitType
+    public enum myBait
     {
         Carrot,
         Fish,
@@ -21,77 +21,80 @@ public class AnimalSpawner : MonoBehaviour {
     public GameObject whale;
     public GameObject rabbit;
     public GameObject player;
-    private BaitType bait;
+    public myBait bait;
     
 
 	// Use this for initialization
 	void Start () {
-        bait = BaitType.None;
+        bait = myBait.None;
+
+        spawnPoints = new Transform[5];
+        spawnPoints[0] = null;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         //if the player has ran into bait, spawn a dude
-        if (!player.GetComponent<BaitType>().Equals(BaitType.None))
+        /*if (!player.GetComponent<myBait>().Equals(myBait.None))
         {
             spawn();
-        }
+        }*/
 	}
 
-    void spawn()
+    /*void spawn()
     {
-        if (player.GetComponent<BaitType>().Equals(BaitType.Berries))
+        if (player.GetComponent<myBait>().Equals(myBait.Berries))
         {
-            bait = BaitType.Berries;
+            bait = myBait.Berries;
             spawnDeer();
         }
 
-        else if (player.GetComponent<BaitType>().Equals(BaitType.Hay))
+        else if (player.GetComponent<myBait>().Equals(myBait.Hay))
         {
-            bait = BaitType.Hay;
+            bait = myBait.Hay;
             spawnHorse();
         }
 
-        else if (player.GetComponent<BaitType>().Equals(BaitType.Fish))
+        else if (player.GetComponent<myBait>().Equals(myBait.Fish))
         {
-            bait = BaitType.Fish;
+            bait = myBait.Fish;
             spawnWhale();
         }
 
-        else if (player.GetComponent<BaitType>().Equals(BaitType.Nuts))
+        else if (player.GetComponent<myBait>().Equals(myBait.Nuts))
         {
-            bait = BaitType.Nuts;
+            bait = myBait.Nuts;
             spawnSquirrel();
         }
 
-        else if (player.GetComponent<BaitType>().Equals(BaitType.Carrot))
+        else if (player.GetComponent<myBait>().Equals(myBait.Carrot))
         {
-            bait = BaitType.Carrot;
+            bait = myBait.Carrot;
             spawnRabbit();
         }
-    }
+    }*/
 
-    void spawnDeer()
+    public void spawnDeer()
     {
 
     }
 
-    void spawnHorse()
+    public void spawnHorse()
     {
 
     }
 
-    void spawnSquirrel()
+    public void spawnSquirrel()
     {
 
     }
 
-    void spawnWhale()
+    public void spawnWhale()
     {
 
     }
 
-    void spawnRabbit()
+    public void spawnRabbit()
     {
 
     }
