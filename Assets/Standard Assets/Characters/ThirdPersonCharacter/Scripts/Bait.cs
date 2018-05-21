@@ -27,27 +27,27 @@ public class Bait : MonoBehaviour {
         {
             case 0:
                 bait = BaitType.Carrot;
-                gameObject.GetComponent<Renderer>().sharedMaterial.color = carrotColor;
+                gameObject.GetComponent<Renderer>().material.color = carrotColor;
                 break;
 
             case 1:
                 bait = BaitType.Fish;
-                gameObject.GetComponent<Renderer>().sharedMaterial.color = fishColor;
+                gameObject.GetComponent<Renderer>().material.color = fishColor;
                 break;
 
             case 2:
                 bait = BaitType.Berries;
-                gameObject.GetComponent<Renderer>().sharedMaterial.color = berryColor;
+                gameObject.GetComponent<Renderer>().material.color = berryColor;
                 break;
 
             case 3:
                 bait = BaitType.Hay;
-                gameObject.GetComponent<Renderer>().sharedMaterial.color = hayColor;
+                gameObject.GetComponent<Renderer>().material.color = hayColor;
                 break;
 
             case 4:
                 bait = BaitType.Nuts;
-                gameObject.GetComponent<Renderer>().sharedMaterial.color = nutColor;
+                gameObject.GetComponent<Renderer>().material.color = nutColor;
                 break;
         }
     }
