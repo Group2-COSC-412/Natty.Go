@@ -22,14 +22,13 @@ public class AnimalSpawner : MonoBehaviour {
     public GameObject rabbit;
     public GameObject player;
     public myBait bait;
+    int spawnPointIndex;
+
     
 
 	// Use this for initialization
 	void Start () {
         bait = myBait.None;
-
-        spawnPoints = new Transform[5];
-        spawnPoints[0] = null;
 	}
 	
 	// Update is called once per frame
@@ -76,7 +75,9 @@ public class AnimalSpawner : MonoBehaviour {
 
     public void spawnDeer()
     {
+        spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
+        Instantiate(deer, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnHorse()

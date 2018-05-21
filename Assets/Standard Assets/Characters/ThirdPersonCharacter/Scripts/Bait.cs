@@ -20,9 +20,37 @@ public class Bait : MonoBehaviour {
     public Color nutColor;
 
     // Use this for initialization
-    void Start () {
+    public void Start () {
+        int randNum = Random.Range(0, 4);
 
-	}
+        switch (randNum)
+        {
+            case 0:
+                bait = BaitType.Carrot;
+                gameObject.GetComponent<Renderer>().sharedMaterial.color = carrotColor;
+                break;
+
+            case 1:
+                bait = BaitType.Fish;
+                gameObject.GetComponent<Renderer>().sharedMaterial.color = fishColor;
+                break;
+
+            case 2:
+                bait = BaitType.Berries;
+                gameObject.GetComponent<Renderer>().sharedMaterial.color = berryColor;
+                break;
+
+            case 3:
+                bait = BaitType.Hay;
+                gameObject.GetComponent<Renderer>().sharedMaterial.color = hayColor;
+                break;
+
+            case 4:
+                bait = BaitType.Nuts;
+                gameObject.GetComponent<Renderer>().sharedMaterial.color = nutColor;
+                break;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -40,6 +68,7 @@ public class Bait : MonoBehaviour {
         switch (bait)
         {
             case BaitType.Berries:
+
                 spawner.spawnDeer();
                 break;
             case BaitType.Carrot:
@@ -57,10 +86,6 @@ public class Bait : MonoBehaviour {
             default:
                 break;
         }
-    }
-
-    public void setBaitTypeOnSpawn(BaitType b)
-    {
-
+        Destroy(gameObject);
     }
 }
