@@ -12,7 +12,7 @@ public class Bait : MonoBehaviour {
         Nuts,
     }
 
-    public BaitType bait;
+    private BaitType bait;
     public Color carrotColor;
     public Color fishColor;
     public Color berryColor;
@@ -27,27 +27,27 @@ public class Bait : MonoBehaviour {
         {
             case 0:
                 bait = BaitType.Carrot;
-                gameObject.GetComponent<Renderer>().material.color = carrotColor;
+                gameObject.GetComponentInChildren<Renderer>().material.color = carrotColor;
                 break;
 
             case 1:
                 bait = BaitType.Fish;
-                gameObject.GetComponent<Renderer>().material.color = fishColor;
+                gameObject.GetComponentInChildren<Renderer>().material.color = fishColor;
                 break;
 
             case 2:
                 bait = BaitType.Berries;
-                gameObject.GetComponent<Renderer>().material.color = berryColor;
+                gameObject.GetComponentInChildren<Renderer>().material.color = berryColor;
                 break;
 
             case 3:
                 bait = BaitType.Hay;
-                gameObject.GetComponent<Renderer>().material.color = hayColor;
+                gameObject.GetComponentInChildren<Renderer>().material.color = hayColor;
                 break;
 
             case 4:
                 bait = BaitType.Nuts;
-                gameObject.GetComponent<Renderer>().material.color = nutColor;
+                gameObject.GetComponentInChildren<Renderer>().material.color = nutColor;
                 break;
         }
     }
@@ -57,7 +57,7 @@ public class Bait : MonoBehaviour {
         transform.Rotate(Vector3.up * 30 * Time.deltaTime);
 	}
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         AnimalSpawner spawner = new AnimalSpawner();
          if(spawner == null)

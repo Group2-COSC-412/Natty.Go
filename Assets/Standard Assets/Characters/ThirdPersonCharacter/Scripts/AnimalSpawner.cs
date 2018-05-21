@@ -82,21 +82,25 @@ public class AnimalSpawner : MonoBehaviour {
 
     public void spawnHorse()
     {
-
+        spawnPointIndex = Random.Range(0, spawnPoints.Length);
+        Instantiate(horse, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnSquirrel()
     {
-
+        spawnPointIndex = Random.Range(0, spawnPoints.Length);
+        Instantiate(squirrel, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnWhale()
     {
-
+        spawnPointIndex = Random.Range(0, spawnPoints.Length);
+        Instantiate(whale, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnRabbit()
     {
-
+        spawnPointIndex = Random.Range(0, spawnPoints.Length);
+        Instantiate(rabbit, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
     }
 }
