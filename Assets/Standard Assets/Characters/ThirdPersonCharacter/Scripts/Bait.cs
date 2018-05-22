@@ -57,35 +57,34 @@ public class Bait : MonoBehaviour {
         transform.Rotate(Vector3.up * 30 * Time.deltaTime);
 	}
 
-    private void OnCollisionEnter(Collision other)
+    void OnCollisionEnter(Collision other)
     {
-        AnimalSpawner spawner = new AnimalSpawner();
-         if(spawner == null)
-         {
-            return;
-         }
-
-        switch (bait)
+        if (other.gameObject.tag == "Player")
         {
-            case BaitType.Berries:
+            AnimalSpawner spawner = new AnimalSpawner();
+            
+            switch (bait)
+            {
+                case BaitType.Berries:
 
-                spawner.spawnDeer();
-                break;
-            case BaitType.Carrot:
-                spawner.spawnRabbit();
-                break;
-            case BaitType.Fish:
-                spawner.spawnWhale();
-                break;
-            case BaitType.Hay:
-                spawner.spawnHorse();
-                break;
-            case BaitType.Nuts:
-                spawner.spawnSquirrel();
-                break;
-            default:
-                break;
+                    spawner.spawnDeer();
+                    break;
+                case BaitType.Carrot:
+                    spawner.spawnRabbit();
+                    break;
+                case BaitType.Fish:
+                    spawner.spawnWhale();
+                    break;
+                case BaitType.Hay:
+                    spawner.spawnHorse();
+                    break;
+                case BaitType.Nuts:
+                    spawner.spawnSquirrel();
+                    break;
+                default:
+                    break;
+            }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
     }
 }
