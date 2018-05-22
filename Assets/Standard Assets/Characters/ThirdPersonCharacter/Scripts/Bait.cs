@@ -18,6 +18,7 @@ public class Bait : MonoBehaviour {
     public Color berryColor;
     public Color hayColor;
     public Color nutColor;
+    public AnimalSpawner spawner;
 
     // Use this for initialization
     public void Start () {
@@ -61,7 +62,6 @@ public class Bait : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            AnimalSpawner spawner = new AnimalSpawner();
             
             switch (bait)
             {

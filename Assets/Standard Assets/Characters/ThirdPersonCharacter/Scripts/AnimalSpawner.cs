@@ -77,30 +77,30 @@ public class AnimalSpawner : MonoBehaviour {
     {
         spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
-        Instantiate(deer, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
+        Instantiate(deer, (Vector3.Distance(player.transform.position, spawnPoints[spawnPointIndex].position) > 50.0f) ? spawnPoints[spawnPointIndex].position : (spawnPointIndex == 4) ? spawnPoints[0].position : spawnPoints[spawnPointIndex + 1].position, spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnHorse()
     {
         spawnPointIndex = Random.Range(0, spawnPoints.Length);
-        Instantiate(horse, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
+        Instantiate(horse, (Vector3.Distance(player.transform.position, spawnPoints[spawnPointIndex].position) > 50.0f) ? spawnPoints[spawnPointIndex].position : (spawnPointIndex == 4) ? spawnPoints[0].position : spawnPoints[spawnPointIndex + 1].position, spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnSquirrel()
     {
         spawnPointIndex = Random.Range(0, spawnPoints.Length);
-        Instantiate(squirrel, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
+        Instantiate(squirrel, (Vector3.Distance(player.transform.position, spawnPoints[spawnPointIndex].position) > 50.0f) ? spawnPoints[spawnPointIndex].position : (spawnPointIndex == 4) ? spawnPoints[0].position : spawnPoints[spawnPointIndex + 1].position, spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnWhale()
     {
         spawnPointIndex = Random.Range(0, spawnPoints.Length);
-        Instantiate(whale, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
+        Instantiate(whale, (Vector3.Distance(player.transform.position, spawnPoints[spawnPointIndex].position) > 50.0f)? spawnPoints[spawnPointIndex].position:(spawnPointIndex == 4)? spawnPoints[0].position:spawnPoints[spawnPointIndex+1].position , spawnPoints[spawnPointIndex].rotation);
     }
 
     public void spawnRabbit()
     {
         spawnPointIndex = Random.Range(0, spawnPoints.Length);
-        Instantiate(rabbit, (spawnPoints[spawnPointIndex].position + player.transform.position), spawnPoints[spawnPointIndex].rotation);
+        Instantiate(rabbit, (Vector3.Distance(player.transform.position, spawnPoints[spawnPointIndex].position) > 50.0f) ? spawnPoints[spawnPointIndex].position : (spawnPointIndex == 4) ? spawnPoints[0].position : spawnPoints[spawnPointIndex + 1].position, spawnPoints[spawnPointIndex].rotation);
     }
 }
